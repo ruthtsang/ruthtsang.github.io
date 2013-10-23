@@ -9,7 +9,7 @@ body{
 }
 #wrapper_content {
 	background-color:#f5f5f5;
-	padding-bottom:50px;
+	padding-bottom:30px;
 	
 
 }
@@ -48,18 +48,43 @@ a:hover{
   	color: #1a727f; 
 }
 .title{
-	font-size:26px;
+	font-size:24px;
 	color:#313131;
 	margin-bottom:10px;
 	padding-top:40px;
+	
 }
 .intro{
 	font-size:14px;
 	color:#555555;
-	width:450px;
-	margin-bottom:30px;
+	width:900px;
+	margin-bottom:20px;
 	line-height:1.2em;
+	clear:both;
 }
+.text{
+	font-size:14px;
+	color:#313131;
+	}
+.text_left{
+	font-size:14px;
+	color:#313131;
+	width:550px;
+	line-height:18px;
+	}
+.category{
+	font-size:13px;
+	font-style:italic;
+	text-transform:uppercase;
+	margin-left:10px;
+	color:#666666;
+	}
+.feature{
+	font-size:16px;
+	font-weight:600;
+	margin-bottom:10px;
+	margin-top:20px;
+	}
 .mainimg{
 	margin-bottom:20px;
 }
@@ -131,9 +156,107 @@ hr{
 	margin-bottom:20px;
 	margin-top:20px;
 }
-}
 @media screen and (max-width: 320px){
 	.st-accordion ul li > a{
 		font-size:36px;
 	}
+}
+
+#about{
+	width:440px;
+	float:left;
+	}
+#about_me{
+	font-size:14px;
+	color:#2292a2;
+	margin-bottom:30px;
+	line-height:1.2em;
+}
+#about_right{
+	width:430px;
+	position:relative;
+	margin-left:30px;
+	float:left;
+	margin-top:60px;
+}
+
+/*social media acc */
+#icon_wrapper{
+	position:relative;
+}
+#icon_wrapper li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	position:absolute;
+	top:0;
+}
+#icon_wrapper li, #icon_wrapper a{
+	height:43px;
+	display:block;
+}
+
+.behance{
+	left:0px;
+	width:44px;
+	background:url(../images/icon_sprite.png) 0 0;
+}
+.behance a:hover{
+	background:url(../images/icon_sprite.png) -44px 0;
+}
+.dribbble{
+	left:54px;
+	width:44px;
+	background:url(../images/icon_sprite.png) 0 -43px;
+}
+.dribbble a:hover{
+	background:url(../images/icon_sprite.png) -44px -43px;
+}
+.facebook{
+	left:108px;
+	width:44px;
+	background:url(../images/icon_sprite.png) 0 -86px;
+}
+.facebook a:hover{
+	background:url(../images/icon_sprite.png) -44px -86px;
+}
+.googleplus{
+	left:162px;
+	width:44px;
+	background:url(../images/icon_sprite.png) 0 -129px;
+}
+.googleplus a:hover{
+	background:url(../images/icon_sprite.png) -44px -129px;
+}
+.linkedin{
+	left:216px;
+	width:44px;
+	background:url(../images/icon_sprite.png) 0 -172px;
+}
+.linkedin a:hover{
+	background:url(../images/icon_sprite.png) -44px -172px;
+}
+.pinterest{
+	left:270px;
+	width:44px;
+	background:url(../images/icon_sprite.png) 0 -215px;
+}
+.pinterest a:hover{
+	background:url(../images/icon_sprite.png) -44px -215px;
+}
+.tumblr{
+	left:324px;
+	width:44px;
+	background:url(../images/icon_sprite.png) 0 -258px;
+}
+.tumblr a:hover{
+	background:url(../images/icon_sprite.png) -44px -258px;
+}
+.twitter{
+	left:378px;
+	width:44px;
+	background:url(../images/icon_sprite.png) 0 -301px;
+}
+.twitter a:hover{
+	background:url(../images/icon_sprite.png) -44px -301px;
 }
