@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ruth Tsang - Designer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top navbar-ruth" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">Ruth Tsang</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../work.html">Work</a></li>
+            <li class="active"><a href="../play.html">Play</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- hero area -->
+      <div class="detail-container">
+        <img class="img-responsive" src="../images/pixel-me_hero.jpg"> 
+      </div>
+
+      <!-- case study details top part pixel me-->
+      <div class="detail-module">
+        <div class="col-md-5">
+          <h1>Pixel Me</h1>
+          <h2>My clothing journal in pixel</h2>
+          <hr>
+          <p>The monthly collection</p>
+          <p>This is an ongoing project. I decided to continue to document my daily outfit in 2014 but will present them in a different way - possibly an infographic to see what colors I wear most. 
+          <p>
+            <a class="btn btn-lg btn-primary btn-view" href="#" role="button">View High-res on flickr</a>
+          </p> 
+        </div>
+        <div class="col-md-7">
+          <img class="img-responsive" src="../images/pixel-me_proj1.jpg" alt="pixel me proj 1">
+          <br/>
+        </div> 
+      </div>
+
+      <!-- case study details module edore -->
+      <div class="detail-module">
+        <div class="col-md-5">
+        </div>
+        <div class="col-md-7">
+          <img class="img-responsive" src="../images/pixel-me_proj2.jpg" alt="pixel me proj 2">
+        </div> 
+      </div>
+
+    
+
+    </div> <!-- /container -->
+
+    <!-- footer -->
+    <div class="container">
+      <div class="footer">
+      <hr>
+      This website is built with <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>. Designed and coded by Ruth Tsang.<br/>
+      &#169;2014 Ruth Tsang.
+      </div>
+    </div> <!-- /footer -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
