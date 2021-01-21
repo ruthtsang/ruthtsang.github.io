@@ -48,11 +48,16 @@ a:hover, a:active {
 	padding: 20px 0;
 	clear:both;
 }
+.container.millennium {
+	margin: 0 auto;
+	width:100%;
+}
 .header-container {
   font-size: 21px;
   font-weight: 200;
   line-height: 2.1428571435;
   background-color: #eeeeee;
+
 }
 .header-container h1{
 	padding-top: 60px;
@@ -74,7 +79,7 @@ a:hover, a:active {
 	color: #1a727a;
 }
 .navbar-nav{
-	padding: 0px 20px 0px 25px;
+	padding: 0px 20px 0px 0px;
 	color:#46909e;
 }
 .home-title h1{
@@ -83,7 +88,7 @@ a:hover, a:active {
 	padding: 40px 0 0 0;
 }
 .home-title p{
-	line-height: 1;
+	line-height: 1.2;
 }
 .case-study-module {
 	color: #555;
@@ -114,10 +119,15 @@ a:hover, a:active {
 }
 .detail-container {
 	padding-top: 20px;
+	margin: 0 auto;
+	width:100%;
+
 }
 .detail-module {
 	padding-top: 30px;
 	clear: both;
+	margin: 0 auto;
+	width:100%;
 }
 .detail-module h1 {
 	font-size: 30px;
@@ -287,4 +297,28 @@ a:hover, a:active {
 }
 .twitter a:hover{
 	background:url(../images/icon_sprite.png) -44px -301px;
+}
+
+
+@media (max-width: 767px) {
+  .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+  }
+  .navbar-nav .open .dropdown-menu > li > a,
+  .navbar-nav .open .dropdown-menu .dropdown-header {
+    padding: 5px 15px 5px 25px;
+  }
+  .navbar-nav .open .dropdown-menu > li > a {
+    line-height: 20px;
+  }
+  .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-image: none;
+  }
 }
